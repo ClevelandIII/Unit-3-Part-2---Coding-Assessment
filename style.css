@@ -5,6 +5,10 @@
         flex-direction: row;
     }
 
+    #links a{
+        display: none;
+    }
+
     article{
         flex-basis: 400px;
         flex-grow: 1;
@@ -126,19 +130,11 @@ p{
     margin: 15px 15px 15px 15px;
 }
 
-.top ul{
-    margin: 10px 10px 10px 10px;
-}
-
 .top ul a{
     color: white;
     display: block;
     font-size: 1.2rem;
     text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: 0%;
-    padding-right: 0%;
 }
 
 .top:hover{
@@ -219,12 +215,12 @@ dl{
     text-align: center;
 }
 
-footer{
-    width: 100%;
+dd{
+    padding-top: 1%;
 }
 
-dl dd{
-    margin-bottom: 20px;
+footer{
+    width: 100%;
 }
 
 #bottom{
